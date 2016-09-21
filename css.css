@@ -20,7 +20,6 @@ a, a:visited {
 a:hover {
   color: #73471B;
   background: inherit;
-  text-decoration: underline;
 }
 .clearfloat {
 	zoom: 1;
@@ -137,32 +136,31 @@ ul {
 	background: transparent url(images/right-tab.gif) no-repeat right top;	
 }
 
-/*---top search navigation---*/
+/*--- search navigation ---*/
 .search_nav{
-  width:263px;
-  height: auto;
-  padding:20px 0 0 50px; 
-  float:left;
+  width: 263px;
+  height: 296px;
+  padding: 20px 0 0 50px; 
 }
 .search_nav ul{
   margin: auto;
-  display:block; 
+  display: block; 
 }
 .search_nav ul li{
-  display:block;
-  width:auto;
-  height:29px;
-  line-height:29px;
+  display: block;
+  width: auto;
+  height: 29px;
+  line-height: 29px;
 }
 .search_nav ul li a{
-  height:29px;
-  display:block; 
-  width:263px;
-  padding:0 0 0 35px; 
-  margin:7px 0;
-  color:#d4f0ba;
+  height: 29px;
+  display: block; 
+  width: 263px;
+  padding: 0 0 0 35px; 
+  margin: 7px 0;
+  color: #d4f0ba;
   background: url(images/search_nav.gif) no-repeat center;
-  background-position:0px 0px;
+  background-position: 0px 0px;
 }
 .search_nav a:hover{
   height:29px;
@@ -220,7 +218,6 @@ ul {
 
 /* footer */
 .footer {
-	margin-top: 250px;
 	width: 952px;
 	padding: 30px 0;
 	background: #CCC url(images/footer-bottom.gif) no-repeat;			
